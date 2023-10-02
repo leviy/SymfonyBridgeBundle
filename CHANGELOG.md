@@ -1,5 +1,18 @@
 # Changelog
 
+[unreleased]
+## [2.0.0] - 2022-06-21
+### Added
+- Symfony 5.0/6.0 support
+
+### Changed
+- PHP minimum version to 7.2.5
+- lightsaml/lightsaml to litesaml/lightsaml
+- src/LightSaml/SymfonyBridgeBundle/DependencyInjection/Configuration.php (fixed node declaration)
+
+### Removed
+- Support for symfony <= 4.x
+
 ## 1.3.0 2018-05-23
 
 * profile services made public, so they are not automatically removed and that they can be get from container
